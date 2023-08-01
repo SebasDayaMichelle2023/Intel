@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int i;
+	for(i=5; i <=111111; i++){
+		if (i%2==1){
+			cout<< i <<endl;
+		}
+	}
+	 cout << "Presione ENTER para salir..." << endl;
+    cin.get();
+	return 0;
+	
+}
